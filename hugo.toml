@@ -1,0 +1,34 @@
+baseURL = "http://localhost:1313/"
+title = "Sarfraz Hameed | Portfolio"
+theme = "blowfish"
+
+[params]
+  defaultAppearance = "dark" 
+
+  [params.homepage]
+    layout = "profile"
+    showRecent = true
+
+[author]
+  name = "Sarfraz Hameed"
+  image = "images/sar_profile.jpg"
+  headline = "Cybersecurity & Agentic AI Developer"
+  bio = "Building automated zero-trust architectures and RAG-based AI agents."
+  
+  links = [
+    { email = "mailto:sarfrazhmeed@gmail.com" },
+    { github = "https://github.com/" },
+    { linkedin = "https://linkedin.com/" }
+  ]
+  [menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 20
