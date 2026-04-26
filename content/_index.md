@@ -1,7 +1,7 @@
 ---
 title: "Welcome"
-date: 2026-04-25
-layout: "profile"
+layout: "background"
+background: "images/background.jpg"
 ---
 
 Welcome to my digital workspace. I am a computer science student and developer focused on the intersection of **Cybersecurity** and **Agentic AI**. 

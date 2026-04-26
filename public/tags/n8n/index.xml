@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>N8n on Sarfraz Hameed | Portfolio</title>
-    <link>http://localhost:57958/tags/n8n/</link>
+    <link>http://localhost:1313/tags/n8n/</link>
     <description>Recent content in N8n on Sarfraz Hameed | Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Sat, 25 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:57958/tags/n8n/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/n8n/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Automated Zero-Trust IAM Onboarding Workflow</title>
-      <link>http://localhost:57958/projects/zero-trust-iam/</link>
+      <link>http://localhost:1313/projects/zero-trust-iam/</link>
       <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:57958/projects/zero-trust-iam/</guid>
+      <guid>http://localhost:1313/projects/zero-trust-iam/</guid>
       <description>An automated system utilizing n8n and Gemini to assign Zero-Trust IAM permissions based on dynamic Google Sheets data with human-in-the-loop approvals.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/zero-trust-iam/feature.jpg" />
     </item>
     
   </channel>

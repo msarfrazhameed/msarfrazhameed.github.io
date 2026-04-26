@@ -1,0 +1,8 @@
+/* The Nuclear Option: Force any logo image in the header to be a circle */
+img.logo,
+nav img,
+header a[href="/"] img {
+    border-radius: 50% !important;
+    object-fit: cover !important;
+    aspect-ratio: 1 / 1 !important;
+}

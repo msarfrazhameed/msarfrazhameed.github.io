@@ -3,18 +3,27 @@ title = "Sarfraz Hameed | Portfolio"
 theme = "blowfish"
 
 [params]
-  defaultAppearance = "dark" 
+  defaultAppearance = "dark"
+  colorScheme = "cyberpunk"
+  logo = "images/sar_profile.jpg"
 
-  [params.homepage]
-    layout = "profile"
+[params.homepage]
+    layout = "background"
     showRecent = true
+    showRecentItems = 5
+    cardView = true
+    homepageImage = "images/background.jpg" # THIS is the line Blowfish was waiting for!
+
+  [params.article]
+    showDate = false
+    showReadingTime = false
 
 [author]
   name = "Sarfraz Hameed"
-  image = "images/sar_profile.jpg"
+  image = "images/sar_profile.jpg" # THIS is the important line!
   headline = "Cybersecurity & Agentic AI Developer"
   bio = "Building automated zero-trust architectures and RAG-based AI agents."
-  
+
   links = [
     { email = "mailto:sarfrazhmeed@gmail.com" },
     { github = "https://github.com/" },
@@ -32,3 +41,4 @@ theme = "blowfish"
     name = "Projects"
     url = "/projects/"
     weight = 20
+   
